@@ -1,8 +1,28 @@
 import React, { useState } from "react";
 import BookToday from "../components/BookToday/BookToday";
+import { Link } from "react-router-dom";
 
 const Gallery = () => {
   const images = [
+    "/assets/celibraty/c1.jpeg",
+    "/assets/celibraty/c2.jpeg",
+    "/assets/celibraty/c3.jpeg",
+    "/assets/celibraty/c4.jpeg",
+    "/assets/celibraty/c5.jpeg",
+    "/assets/celibraty/c6.jpeg",
+    "/assets/celibraty/c7.jpeg",
+    "/assets/celibraty/c8.jpeg",
+    "/assets/celibraty/c9.jpeg",
+    "/assets/celibraty/c10.jpeg",
+    "/assets/celibraty/c11.jpeg",
+    "/assets/celibraty/c12.jpeg",
+    "/assets/celibraty/c13.jpeg",
+    "/assets/celibraty/c14.jpeg",
+    "/assets/celibraty/c15.jpeg",
+    "/assets/gallery/70.jpeg",
+    "/assets/gallery/71.jpeg",
+    "/assets/gallery/72.jpeg",
+    "/assets/gallery/73.jpeg",
     "/assets/gallery/46.jpeg",
     "/assets/gallery/45.jpeg",
     "/assets/gallery/44.jpeg",
@@ -36,6 +56,17 @@ const Gallery = () => {
     "/assets/gallery/o3.jpeg",
     "/assets/gallery/o2.jpeg",
     "/assets/gallery/o1.jpeg",
+    "/assets/feet/f1.jpeg",
+    "/assets/feet/f2.jpeg",
+    "/assets/feet/f3.jpeg",
+    "/assets/feet/f4.jpeg",
+    "/assets/feet/f5.jpeg",
+    "/assets/feet/f6.jpeg",
+    "/assets/feet/f7.jpeg",
+    "/assets/feet/f8.jpeg",
+    "/assets/feet/f9.jpeg",
+    "/assets/feet/f10.jpeg",
+    "/assets/feet/f11.jpeg",
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);
@@ -67,6 +98,28 @@ const Gallery = () => {
 
   return (
     <>
+      {/* Hero Section */}
+      <div className="relative bg-zinc-800 text-white h-80 lg:h-[80vh]">
+        <img
+          src="/assets/banner/banner2.jpeg"
+          alt="ourproject background"
+          className="absolute inset-0 w-full h-full object-cover opacity-60"
+        />
+        {/* <div className="relative z-10 p-8 flex flex-col items-center">
+          <nav className="flex justify-center items-center space-x-4 text-sm font-bold">
+            <Link to="/" className="text-orange-500 hover:text-gray-100">
+              Home
+            </Link>
+            <span className="text-orange-500">/</span>
+            <Link to="/gallery" className="text-orange-500 hover:text-gray-100">
+              Gallery 
+            </Link>
+          </nav>
+          <h1 className="text-4xl font-bold mt-4 text-orange-500">
+            Our Gallery
+          </h1>
+        </div> */}
+      </div>
       <div className="p-4">
         <div>
           <h2 className="text-5xl text-orange-500 font-bold text-center mb-4">

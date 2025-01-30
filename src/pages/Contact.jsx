@@ -214,7 +214,8 @@ const Contact = () => {
                 <strong>Email:</strong> info@omprakashbridalmehandi.com
               </li>
               <li>
-                <strong>Email For Booking:</strong> omprakashmehandiart@gmail.com
+                <strong>Email For Booking:</strong>{" "}
+                omprakashmehandiart@gmail.com
               </li>
               <li>
                 <strong>Working Hours:</strong> 9:00 AM - 6:00 PM
@@ -229,25 +230,27 @@ const Contact = () => {
               </h3>
               <div className="flex space-x-4 mt-2">
                 <Link
-                  to="#"
+                  to="https://www.instagram.com/omprakashmehandiart9?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                  target="_blank"
                   className="bg-gray-200 p-2 rounded-full text-red-500 hover:text-red-600 transition text-2xl"
                   aria-label="Instagram"
                 >
                   <FaSquareInstagram />
                 </Link>
                 <Link
-                  to="#"
+                  to="https://www.instagram.com/omprakashbridalmehandi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                  target="_blank"
+                  className="bg-gray-200 p-2 rounded-full text-red-500 hover:text-red-600 transition text-2xl"
+                  aria-label="Instagram"
+                >
+                  <FaSquareInstagram />
+                </Link>
+                <Link
+                  to="https://www.facebook.com/omprakashmehandiart.omprakash.7"
                   className="bg-gray-200 p-2 rounded-full text-blue-600 hover:text-blue-700 transition text-2xl"
                   aria-label="Facebook"
                 >
                   <FaFacebookF />
-                </Link>
-                <Link
-                  to="#"
-                  className="bg-gray-200 p-2 rounded-full text-blue-400 hover:text-blue-500 transition text-2xl"
-                  aria-label="Twitter"
-                >
-                  <FaTwitter />
                 </Link>
                 <Link
                   to="#"

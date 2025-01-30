@@ -29,7 +29,7 @@ const PayNow = () => {
         {/* Left Section - Payment Scanner */}
         <div className="lg:w-1/2 bg-gray-200 p-6 rounded-lg w-full flex justify-center items-center">
           <img
-            src="/assets/gallery/13.jpeg"
+            src="/assets/refer/scanner.jpeg"
             alt="Payment Scanner"
             className="w-full max-w-md border border-gray-300 rounded-lg shadow-lg"
           />

@@ -171,6 +171,14 @@ const Footer = () => {
                 <FaInstagram className="text-3xl text-red-400 cursor-pointer" />
               </a>
               <a
+                href="https://www.instagram.com/omprakashbridalmehandi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white p-2 rounded-full transform transition-all duration-100 hover:scale-110"
+              >
+                <FaInstagram className="text-3xl text-red-400 cursor-pointer" />
+              </a>
+              <a
                 href="https://www.youtube.com/@omprakashbridalmehandi5927"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -187,7 +195,7 @@ const Footer = () => {
             </div>
             <div className="mt-11 rounded-lg p-2">
               <h3 className="font-bold text-lg mb-4">Refer to Friends</h3>
-              <img src="/assets/refer/yovraj.png" alt="" />
+              <img src="/assets/refer/OmPrakash copy.png" alt="" />
             </div>
           </div>
         </div>
@@ -238,7 +246,7 @@ const Footer = () => {
         <div className="fixed bottom-8 right-8 flex flex-col items-center space-y-4">
           {/* WhatsApp Icon */}
           <a
-            href="https://wa.link/mv3bes"
+            href="https://wa.link/h95s4f"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 p-4 rounded-full shadow-md hover:scale-110 transition-transform duration-300 animate-bounce"
@@ -247,7 +255,7 @@ const Footer = () => {
           </a>
           {/* Call Icon */}
           <a
-            href="tel:+919354020727"
+            href="tel:+918918234042"
             className="bg-blue-500 p-4 rounded-full shadow-md hover:scale-110 transition-transform duration-300 animate-bounce"
           >
             <FaPhoneAlt className="text-white text-2xl" />

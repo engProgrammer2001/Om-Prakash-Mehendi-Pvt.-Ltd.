@@ -49,8 +49,8 @@ const GalleryCompo = () => {
           <h2 className="text-5xl text-orange-500 font-bold text-center">
             Gallery
           </h2>
-          <p className="font-semibold text-center">Welcome to our gallery</p>
-          <p className="px-4 lg:px-24 text-lg text-center text-slate-900 py-2">
+          <p className="ont-semibold text-center text-2xl text-[#27214e] font-bold">Welcome to our gallery</p>
+          <p className="px-4 lg:px-24 text-lg text-center text-[#27214e] font-bold py-2">
             "Welcome to Om Prakash Mehendi, where every design is a celebration
             of art, culture, and tradition. Our intricate Mehendi patterns are
             crafted with passion and precision, capturing the beauty and

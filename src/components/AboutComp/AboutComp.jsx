@@ -10,7 +10,7 @@ const AboutCompo = () => {
       <div className="flex flex-col justify-center items-center md:flex-row w-full">
         <div className="w-full md:w-1/2 p-4">
           <h2 className="text-3xl text-orange-500 font-bold mb-4">
-            Om Prakash Mehandi Artist
+            Om Prakash Bridal Mehendi
           </h2>
           <p className="text-lg">
             Om Prakash Mehandi Artist is renowned for creating breathtaking and
