@@ -35,24 +35,26 @@ const PayNow = () => {
           />
         </div>
         {/* Right Section - Bank Details */}
-        <div className="lg:w-1/2 bg-gray-200 text-yellow-500 p-6 rounded-lg w-full flex flex-col justify-center">
+        <div className="lg:w-1/2 bg-gray-200 text-orange-500 p-6 rounded-lg w-full flex flex-col justify-center">
           <h2 className="text-2xl font-bold mb-4">Bank Details</h2>
           <ul className="space-y-2 text-lg">
             <li>
               <span className="font-semibold">Bank Name:</span> SBI Bank
             </li>
             <li>
-              <span className="font-semibold">Account Number:</span> 1234567890
+              <span className="font-semibold">Account Number:</span> +91
+              8918234042
             </li>
             <li>
-              <span className="font-semibold">Account Holder Name:</span> John
-              Doe
+              <span className="font-semibold">Account Holder Name:</span> Om
+              Prakash Bridal Mehendi Doe
             </li>
             <li>
               <span className="font-semibold">IFSC Code:</span> ABCD0123456
             </li>
             <li>
-              <span className="font-semibold">Branch:</span> Main Street, City
+              <span className="font-semibold">Branch:</span> Near Prem Chineej
+              fast Food, C-4 E, Market, Janakpuri Pincode 110058
             </li>
           </ul>
         </div>
@@ -60,6 +62,5 @@ const PayNow = () => {
     </div>
   );
 };
-
 
 export default PayNow;

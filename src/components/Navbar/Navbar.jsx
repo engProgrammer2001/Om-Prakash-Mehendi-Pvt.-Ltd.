@@ -32,23 +32,23 @@ const Navbar = () => {
           {/* Navbar links */}
           <ul className="flex gap-8 font-bold text-lg">
             <li>
-              <Link to="/" className="hover:text-[#ff6b3e]">
+              <Link to="/" className="hover:text-[#27214e]">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-[#ff6b3e]">
+              <Link to="/about" className="hover:text-[#27214e]">
                 About
               </Link>
             </li>
             <li className="relative">
               <button
                 onClick={toggleServiceMenu}
-                className="hover:text-[#ff6b3e] flex items-center"
+                className="hover:text-[#27214e] flex items-center"
               >
                 <Link to={"/service"}>Service </Link>
                 <span>
-                  <IoMdArrowDropdown className="text-2xl" />
+                  <IoMdArrowDropdown className="text-3xl" />
                 </span>
               </button>
               {/* Sub-menu for Service */}
@@ -154,12 +154,12 @@ const Navbar = () => {
               )}
             </li>
             <li>
-              <Link to="/gallery" className="hover:text-[#ff6b3e]">
+              <Link to="/gallery" className="hover:text-[#27214e]">
                 Gallery
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-[#ff6b3e]">
+              <Link to="/contact" className="hover:text-[#27214e]">
                 Contact
               </Link>
             </li>
@@ -181,7 +181,7 @@ const Navbar = () => {
         {/* Toggle button for mobile devices */}
         <button
           onClick={toggleMenu}
-          className="lg:hidden text-slate-900 text-4xl"
+          className="lg:hidden text-[#ff6b3e] text-4xl"
         >
           ☰
         </button>
@@ -189,25 +189,25 @@ const Navbar = () => {
       {/* Mobile menu */}
       {isMenuOpen && (
         <ul className="flex-col gap-4 flex sm:hidden mt-2">
-          <li>
-            <Link to="/" className="block py-2 hover:text-[#ff6b3e]">
+          <li className="bg-orange-500 rounded-lg px-4 font-bold">
+            <Link to="/" className="block py-2 hover:text-[#27214e] ">
               Home
             </Link>
           </li>
-          <li>
-            <Link to="/about" className="block py-2 hover:text-[#ff6b3e]">
+          <li className="bg-orange-500 rounded-lg px-4 font-bold">
+            <Link to="/about" className="block py-2 hover:text-[#27214e]">
               About
             </Link>
           </li>
-          <li className="relative">
+          <li className="relative bg-orange-500 rounded-lg px-4 font-bold">
             <button
               onClick={toggleServiceMenu}
-              className="block py-2 hover:text-[#ff6b3e]"
+              className="block py-2 hover:text-[#27214e]"
             >
               Service
             </button>
             {isServiceOpen && (
-              <ul className="absolute text-sm w-64 left-0 bg-yellow-400 mt-1 border border-slate-900 rounded shadow-lg z-50">
+              <ul className="absolute text-sm w-64 left-0 bg-[#27214e] mt-1 border-2 border-[#ff6b3e] rounded shadow-lg z-50">
                 <li>
                   <Link
                     to="/service-details/1"
@@ -280,16 +280,40 @@ const Navbar = () => {
                     Feet Design Mehandi
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    to="/service-details/10"
+                    className="block px-4 py-2 hover:bg-[#ff6b3e]"
+                  >
+                    Dulha Dulhan Mehandi
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/service-details/11"
+                    className="block px-4 py-2 hover:bg-[#ff6b3e]"
+                  >
+                    Festival Mehandi
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/service-details/12"
+                    className="block px-4 py-2 hover:bg-[#ff6b3e]"
+                  >
+                    Arabian design
+                  </Link>
+                </li>
               </ul>
             )}
           </li>
-          <li>
-            <Link to="/gallery" className="block py-2 hover:text-[#ff6b3e]">
+          <li className="bg-orange-500 rounded-lg px-4 font-bold">
+            <Link to="/gallery" className="block py-2 hover:text-[#27214e]">
               Gallery
             </Link>
           </li>
-          <li>
-            <Link to="/contact" className="block py-2 hover:text-[#ff6b3e]">
+          <li className="bg-orange-500 rounded-lg px-4 font-bold">
+            <Link to="/contact" className="block py-2 hover:text-[#27214e]">
               Contact
             </Link>
           </li>

@@ -10,6 +10,10 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <footer
       className="bg-[#27214e] border-b border-[#ff6b3e] text-white relative"
@@ -38,45 +42,70 @@ const Footer = () => {
               the best designs and experiences for your special occasions.
             </p>
           </div>
+
           {/* Services Section */}
           <div>
             <h3 className="font-bold text-lg mb-4 text-orange-500">Services</h3>
             <ul className="text-lg space-y-3">
               <li className="hover:text-orange-500 cursor-pointer">
-                Bridal Mehandi
+                <Link to="/service-details/1" onClick={scrollToTop}>
+                  Bridal Mehandi
+                </Link>
               </li>
               <li className="hover:text-orange-500 cursor-pointer">
-                Party Mehandi
+                <Link to="/service-details/2" onClick={scrollToTop}>
+                  Party Mehandi
+                </Link>
               </li>
               <li className="hover:text-orange-500 cursor-pointer">
-                Dulha Mehandi
+                <Link to="/service-details/3" onClick={scrollToTop}>
+                  Dulha Mehandi
+                </Link>
               </li>
               <li className="hover:text-orange-500 cursor-pointer">
-                Guest Mehandi
+                <Link to="/service-details/4" onClick={scrollToTop}>
+                  Guest Mehandi
+                </Link>
               </li>
               <li className="hover:text-orange-500 cursor-pointer">
-                Engagement Mehandi
+                <Link to="/service-details/5" onClick={scrollToTop}>
+                  Engagement Mehandi
+                </Link>
               </li>
               <li className="hover:text-orange-500 cursor-pointer">
-                Luxury Heavy Bridal Design
+                <Link to="/service-details/6" onClick={scrollToTop}>
+                  Luxury Heavy Bridal Design
+                </Link>
               </li>
               <li className="hover:text-orange-500 cursor-pointer">
-                Baby Shower Mehandi
+                <Link to="/service-details/7" onClick={scrollToTop}>
+                  Baby Shower Mehandi
+                </Link>
               </li>
               <li className="hover:text-orange-500 cursor-pointer">
-                Normal Hand Mehandi
+                <Link to="/service-details/8" onClick={scrollToTop}>
+                  Normal Hand Mehandi
+                </Link>
               </li>
               <li className="hover:text-orange-500 cursor-pointer">
-                Feet Design Mehandi
+                <Link to="/service-details/9" onClick={scrollToTop}>
+                  Feet Design Mehandi
+                </Link>
               </li>
               <li className="hover:text-orange-500 cursor-pointer">
-                Dulha Dulhan Mehandi
+                <Link to="/service-details/10" onClick={scrollToTop}>
+                  Dulha Dulhan Mehandi
+                </Link>
               </li>
               <li className="hover:text-orange-500 cursor-pointer">
-                Festival Mehandi
+                <Link to="/service-details/11" onClick={scrollToTop}>
+                  Festival Mehandi
+                </Link>
               </li>
               <li className="hover:text-orange-500 cursor-pointer">
-                Arabic Mehandi
+                <Link to="/service-details/12" onClick={scrollToTop}>
+                  Arabic Mehandi
+                </Link>
               </li>
             </ul>
           </div>

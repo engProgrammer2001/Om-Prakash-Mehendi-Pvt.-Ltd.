@@ -8,7 +8,7 @@ const ServiceCompo = () => {
     navigate(`/service-details/${id}`);
   };
   return (
-    <div className="p-6">
+    <div className="p-4">
       <h1 className="text-orange-500 text-3xl lg:text-4xl font-bold text-center my-2">
         Our Mehendi Services
       </h1>
